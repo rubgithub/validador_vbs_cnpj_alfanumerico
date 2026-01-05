@@ -11,5 +11,6 @@
         "*.bas": "vba",
         "*.vbs": "vbscript",
         "cnpj_alfanumerico.vbs": "vbscript"
-    }
+    },
+    "gitflow.disableOnRepo": true
 }

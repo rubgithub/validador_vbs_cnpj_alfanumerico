@@ -1,6 +1,24 @@
 name: Test VBScript
 
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - 'cnpj_alfanumerico.vbs'
+      - 'teste_cnpjs_validos.vbs'
+      - 'teste_cnpsj_massa_mista.vbs'
+      - 'gerador_cnpj_alfanumerico/**'
+      - 'cnpjs_validos_gerados_receitafederal.csv'
+      - 'cnpsj_massa_mista_gerado_chatgpt.csv'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'cnpj_alfanumerico.vbs'
+      - 'teste_cnpjs_validos.vbs'
+      - 'teste_cnpsj_massa_mista.vbs'
+      - 'gerador_cnpj_alfanumerico/**'
+      - 'cnpjs_validos_gerados_receitafederal.csv'
+      - 'cnpsj_massa_mista_gerado_chatgpt.csv'
+      - '.github/workflows/**'
 
 jobs:
   teste-validos:

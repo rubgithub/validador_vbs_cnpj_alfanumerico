@@ -2,6 +2,8 @@
 
 ![License: MIT](https://img.shields.io/github/license/rubgithub/validador_vbs_cnpj_alfanumerico?color=blue)
 
+[![Test VBScript](https://github.com/rubgithub/validador_vbs_cnpj_alfanumerico/actions/workflows/test-vbscript.yml/badge.svg)](https://github.com/rubgithub/validador_vbs_cnpj_alfanumerico/actions/workflows/test-vbscript.yml)
+
 **Descrição**
 
 Projeto contendo código em **VBScript** para validação de CNPJs alfanuméricos, baseado no serviço oficial da Receita Federal para CNPJ alfanumérico:

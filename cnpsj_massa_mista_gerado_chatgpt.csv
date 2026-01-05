@@ -1,103 +1,103 @@
 cnpj;valido;observacao
-12.ABC.345/01DE-35;S;CNPJ válido
-34.DEF.678/90GH-07;S;CNPJ válido
-56.GHI.123/45JK-23;S;CNPJ válido
-78.JKL.678/MNOP-52;S;CNPJ válido
-90.MNO.901/PQRS-04;S;CNPJ válido
-23.STU.456/78VW-82;S;CNPJ válido
-45.VWX.567/89YZ-28;S;CNPJ válido
-67.YZA.678/90BC-47;S;CNPJ válido
-89.BCD.123/45EF-42;S;CNPJ válido
-01.EFG.234/56HI-04;S;CNPJ válido
+12.ABC.345/01DE-35;S;CNPJ valido
+34.DEF.678/90GH-07;S;CNPJ valido
+56.GHI.123/45JK-23;S;CNPJ valido
+78.JKL.678/MNOP-52;S;CNPJ valido
+90.MNO.901/PQRS-04;S;CNPJ valido
+23.STU.456/78VW-82;S;CNPJ valido
+45.VWX.567/89YZ-28;S;CNPJ valido
+67.YZA.678/90BC-47;S;CNPJ valido
+89.BCD.123/45EF-42;S;CNPJ valido
+01.EFG.234/56HI-04;S;CNPJ valido
 12.ABC.345/01DE-36;N;DV2 incorreto
 12.ABC.345/01DE-45;N;DV1 incorreto
 12.ABC.345/01DF-35;N;caractere alterado na base
-12.ABC.345/01D5-35;N;letra trocada por número
-12.ABC.345/01ED-35;N;inversão de caracteres
+12.ABC.345/01D5-35;N;letra trocada por numero
+12.ABC.345/01ED-35;N;inversao de caracteres
 12.ABC.345/01DX-35;N;caractere diferente
-12.ABC.345/01DD-35;N;repetição de caractere
-12.ABC.345/02DE-35;N;alteração no grupo
+12.ABC.345/01DD-35;N;repeticao de caractere
+12.ABC.345/02DE-35;N;alteracao no grupo
 12.ABC.345/01DE-34;N;ambos DVs alterados
 34.DEF.678/90GH-08;N;DV2 incorreto
 34.DEF.678/90GH-17;N;DV1 incorreto
 34.DEF.678/90GI-07;N;caractere alterado na base
-34.DEF.678/90G1-07;N;letra trocada por número
-34.DEF.678/90HG-07;N;inversão de caracteres
+34.DEF.678/90G1-07;N;letra trocada por numero
+34.DEF.678/90HG-07;N;inversao de caracteres
 34.DEF.678/90GX-07;N;caractere diferente
-34.DEF.678/90GG-07;N;repetição de caractere
-34.DEF.678/91GH-07;N;alteração no grupo
+34.DEF.678/90GG-07;N;repeticao de caractere
+34.DEF.678/91GH-07;N;alteracao no grupo
 34.DEF.678/90GH-00;N;DVs alterados
 56.GHI.123/45JK-24;N;DV2 incorreto
 56.GHI.123/45JK-33;N;DV1 incorreto
 56.GHI.123/45JJ-23;N;caractere alterado na base
-56.GHI.123/45J5-23;S;letra trocada por número (Gerou cnpj valido ao tentar trocar letra por numero)
-56.GHI.123/45KJ-23;N;inversão de caracteres
+56.GHI.123/45J5-23;S;letra trocada por numero (Gerou cnpj valido ao tentar trocar letra por numero)
+56.GHI.123/45KJ-23;N;inversao de caracteres
 56.GHI.123/45JX-23;N;caractere diferente
-56.GHI.123/45KK-23;N;repetição de caractere
-56.GHI.123/46JK-23;N;alteração no grupo
+56.GHI.123/45KK-23;N;repeticao de caractere
+56.GHI.123/46JK-23;N;alteracao no grupo
 56.GHI.123/45JK-22;N;ambos DVs alterados
 78.JKL.678/MNOP-53;N;DV2 incorreto
 78.JKL.678/MNOP-62;N;DV1 incorreto
 78.JKL.678/MNOQ-52;N;caractere alterado na base
-78.JKL.678/MNO5-52;N;letra trocada por número
-78.JKL.678/MNPO-52;N;inversão de caracteres
+78.JKL.678/MNO5-52;N;letra trocada por numero
+78.JKL.678/MNPO-52;N;inversao de caracteres
 78.JKL.678/MNOX-52;N;caractere diferente
-78.JKL.678/MNOO-52;N;repetição de caractere
-78.JKL.678/MNPP-52;N;alteração no grupo
+78.JKL.678/MNOO-52;N;repeticao de caractere
+78.JKL.678/MNPP-52;N;alteracao no grupo
 78.JKL.678/MNOP-51;N;ambos DVs alterados
 90.MNO.901/PQRS-05;N;DV2 incorreto
 90.MNO.901/PQRS-14;N;DV1 incorreto
 90.MNO.901/PQRT-04;N;caractere alterado na base
-90.MNO.901/PQR5-04;N;letra trocada por número
-90.MNO.901/PQSR-04;N;inversão de caracteres
+90.MNO.901/PQR5-04;N;letra trocada por numero
+90.MNO.901/PQSR-04;N;inversao de caracteres
 90.MNO.901/PQRX-04;N;caractere diferente
-90.MNO.901/PQRR-04;N;repetição de caractere
-90.MNO.901/PRRS-04;N;alteração no grupo
+90.MNO.901/PQRR-04;N;repeticao de caractere
+90.MNO.901/PRRS-04;N;alteracao no grupo
 90.MNO.901/PQRS-03;N;ambos DVs alterados
 23.STU.456/78VW-83;N;DV2 incorreto
 23.STU.456/78VW-92;N;DV1 incorreto
 23.STU.456/78VX-82;N;caractere alterado na base
-23.STU.456/78V5-82;N;letra trocada por número
-23.STU.456/78WV-82;N;inversão de caracteres
+23.STU.456/78V5-82;N;letra trocada por numero
+23.STU.456/78WV-82;N;inversao de caracteres
 23.STU.456/78VY-82;N;caractere diferente
-23.STU.456/78VV-82;N;repetição de caractere
-23.STU.456/79VW-82;N;alteração no grupo
+23.STU.456/78VV-82;N;repeticao de caractere
+23.STU.456/79VW-82;N;alteracao no grupo
 23.STU.456/78VW-81;N;ambos DVs alterados
 45.VWX.567/89YZ-29;N;DV2 incorreto
 45.VWX.567/89YZ-38;N;DV1 incorreto
 45.VWX.567/89YA-28;N;caractere alterado na base
-45.VWX.567/89Y5-28;N;letra trocada por número
-45.VWX.567/89ZY-28;N;inversão de caracteres
+45.VWX.567/89Y5-28;N;letra trocada por numero
+45.VWX.567/89ZY-28;N;inversao de caracteres
 45.VWX.567/89YX-28;N;caractere diferente
-45.VWX.567/89YY-28;N;repetição de caractere
-45.VWX.567/88YZ-28;N;alteração no grupo
+45.VWX.567/89YY-28;N;repeticao de caractere
+45.VWX.567/88YZ-28;N;alteracao no grupo
 45.VWX.567/89YZ-27;N;ambos DVs alterados
 67.YZA.678/90BC-48;N;DV2 incorreto
 67.YZA.678/90BC-57;N;DV1 incorreto
 67.YZA.678/90BD-47;N;caractere alterado na base
-67.YZA.678/90B1-47;N;letra trocada por número
-67.YZA.678/90CB-47;N;inversão de caracteres
+67.YZA.678/90B1-47;N;letra trocada por numero
+67.YZA.678/90CB-47;N;inversao de caracteres
 67.YZA.678/90BX-47;N;caractere diferente
-67.YZA.678/90BB-47;N;repetição de caractere
-67.YZA.678/91BC-47;N;alteração no grupo
+67.YZA.678/90BB-47;N;repeticao de caractere
+67.YZA.678/91BC-47;N;alteracao no grupo
 67.YZA.678/90BC-46;N;ambos DVs alterados
 89.BCD.123/45EF-43;N;DV2 incorreto
 89.BCD.123/45EF-52;N;DV1 incorreto
 89.BCD.123/45EG-42;N;caractere alterado na base
-89.BCD.123/45E5-42;N;letra trocada por número
-89.BCD.123/45FE-42;N;inversão de caracteres
+89.BCD.123/45E5-42;N;letra trocada por numero
+89.BCD.123/45FE-42;N;inversao de caracteres
 89.BCD.123/45EX-42;N;caractere diferente
-89.BCD.123/45EE-42;N;repetição de caractere
-89.BCD.123/46EF-42;N;alteração no grupo
+89.BCD.123/45EE-42;N;repeticao de caractere
+89.BCD.123/46EF-42;N;alteracao no grupo
 89.BCD.123/45EF-41;N;ambos DVs alterados
 01.EFG.234/56HI-05;N;DV2 incorreto
 01.EFG.234/56HI-14;N;DV1 incorreto
 01.EFG.234/56HJ-04;N;caractere alterado na base
-01.EFG.234/56H1-04;N;letra trocada por número
-01.EFG.234/56IH-04;N;inversão de caracteres
+01.EFG.234/56H1-04;N;letra trocada por numero
+01.EFG.234/56IH-04;N;inversao de caracteres
 01.EFG.234/56HX-04;N;caractere diferente
-01.EFG.234/56HH-04;N;repetição de caractere
-01.EFG.234/57HI-04;N;alteração no grupo
+01.EFG.234/56HH-04;N;repeticao de caractere
+01.EFG.234/57HI-04;N;alteracao no grupo
 01.EFG.234/56HI-03;N;ambos DVs alterados
 XJ.WDC.5EI/JS1M-90;S;cnpjs gerados script python
 V1.9CV.EMD/XA7B-21;S;cnpjs gerados script python

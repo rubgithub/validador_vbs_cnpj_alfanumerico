@@ -1,0 +1,15 @@
+{
+    "cSpell.words": [
+        "Alfanumerico"
+    ],
+    "code-runner.executorMap": {
+        "vbscript": "cscript //Nologo \"$fullFileName\"",
+        "vbs": "cscript //Nologo \"$fullFileName\""
+    },
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "*.bas": "vba",
+        "*.vbs": "vbscript",
+        "cnpj_alfanumerico.vbs": "vbscript"
+    }
+}

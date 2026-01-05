@@ -1,5 +1,7 @@
 # Validador CNPJ Alfanumérico (VBScript)
 
+![License: MIT](https://img.shields.io/github/license/rubgithub/validador_vbs_cnpj_alfanumerico?color=blue)
+
 **Descrição**
 
 Projeto contendo código em **VBScript** para validação de CNPJs alfanuméricos, baseado no serviço oficial da Receita Federal para CNPJ alfanumérico:

@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/github/license/rubgithub/validador_vbs_cnpj_alfanumerico?color=blue)
 
-[![Teste CNPs](https://github.com/rubgithub/validador_vbs_cnpj_alfanumerico/actions/workflows/test-vbscript.yml/badge.svg)](https://github.com/rubgithub/validador_vbs_cnpj_alfanumerico/actions/workflows/test-vbscript.yml)
+[![Teste CNPJs](https://github.com/rubgithub/validador_vbs_cnpj_alfanumerico/actions/workflows/test-vbscript.yml/badge.svg)](https://github.com/rubgithub/validador_vbs_cnpj_alfanumerico/actions/workflows/test-vbscript.yml)
 
 **Descrição**
 

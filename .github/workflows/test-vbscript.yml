@@ -3,22 +3,58 @@ name: Test VBScript
 on: [push, pull_request]
 
 jobs:
-  test-vbs:
+  teste-validos:
+    name: Run validos test
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run VBScript against CSV and fail if any invalids found
+      - name: Run validator (validos)
         shell: pwsh
         run: |
-          # Run validator, capture output to file and print it
-          & cscript //Nologo .\teste_cnpjs_validos.vbs 2>&1 | Tee-Object -FilePath results.txt
-          Write-Host "--- Validator output ---"
-          Get-Content results.txt | ForEach-Object { Write-Host $_ }
-          # Fail if script returned non-zero exit code
-          if ($LASTEXITCODE -ne 0) { Write-Error "Validation failed: invalid CNPJs found. See results.txt for details"; exit 1 }
-      - name: Upload results.txt artifact (on failure)
+          $results = 'results-validos.txt'
+          if (Test-Path $results) { Remove-Item $results }
+
+          Write-Host "Running teste_cnpjs_validos.vbs"
+          & cscript //Nologo .\teste_cnpjs_validos.vbs 2>&1 | Tee-Object -FilePath $results -Append
+          $code = $LASTEXITCODE
+          Add-Content -Path exitcodes-validos.txt -Value "teste_cnpjs_validos:$code"
+
+          if ($code -ne 0) {
+            Write-Host "::error title=teste_cnpjs_validos failed::teste_cnpjs_validos returned exit code $code"
+            exit $code
+          }
+
+      - name: Upload results artifact (on failure)
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: validation-results
-          path: results.txt
+          name: validation-results-validos
+          path: results-validos.txt
+
+  teste-massa-mista:
+    name: Run massa mista test
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run validator (massa mista)
+        shell: pwsh
+        run: |
+          $results = 'results-massa.txt'
+          if (Test-Path $results) { Remove-Item $results }
+
+          Write-Host "Running teste_cnpsj_massa_mista.vbs"
+          & cscript //Nologo .\teste_cnpsj_massa_mista.vbs 2>&1 | Tee-Object -FilePath $results -Append
+          $code = $LASTEXITCODE
+          Add-Content -Path exitcodes-massa.txt -Value "teste_cnpsj_massa_mista:$code"
+
+          if ($code -ne 0) {
+            Write-Host "::error title=teste_cnpsj_massa_mista failed::teste_cnpsj_massa_mista returned exit code $code"
+            exit $code
+          }
+
+      - name: Upload results artifact (on failure)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-results-massa
+          path: results-massa.txt
